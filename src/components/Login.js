@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'; // Atualize a importação
 import { useNavigate } from 'react-router-dom';
 import { auth } from '../firebase'; // Certifique-se de que 'auth' esteja corretamente exportado
 
